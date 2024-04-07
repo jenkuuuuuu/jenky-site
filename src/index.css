@@ -6,7 +6,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #f8d7db;
-  background-image: url("shitty halftone.png");
+  background-image: url("/shitty halftone.png");
   background-repeat: repeat-x;
 
   font-synthesis: none;
