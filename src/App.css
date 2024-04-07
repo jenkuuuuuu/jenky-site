@@ -1,0 +1,170 @@
+
+.IntroContainer{
+  font-family: 'jenku';
+  color: #872d31;
+  width: 50%;
+}
+
+.fade-transition.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+@font-face {
+  font-family: 'jenku';
+  src: url(Jenku-Regular.otf);
+}
+
+#names {
+  margin-bottom: 2em;
+}
+
+.Hi{
+  position: relative;
+  font-size: 6em;
+  display: inline-block;
+  line-height: 0.8;
+  grid-column: 1;
+}
+
+.introWrapper{
+  display: grid;
+  align-items: center;
+}
+
+.status{
+  position: absolute;
+  margin-left: 25vw;
+  display: inline-block;
+  font-size: 3em;
+  align-content: flex-end;
+
+  .left{
+    display: inline-block;
+  }
+  .dsGame{
+    display: inline-block;
+  }
+}
+
+.extraInfo{
+  padding-top: 2em;
+  line-height: 01;
+  font-size: 3em;
+  grid-column: 1;
+}
+
+.myConsoles{
+  margin-top: -0.8em;
+  column-count: 2;
+  font-size: 1.5em;
+  background-color: aliceblue;
+  width: 25em;
+  height: 14em;
+  border-top: solid;
+  border-width: 5px;
+  border-color: #872d31;
+}
+
+.PLeaseDONTREAD{
+  display: inline-block;
+  position: absolute;
+  margin-top: 5vh;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #872d31;
+  background-color: #bb686b;
+  width: 37.5em;
+}
+
+.Horror{
+  font-family: jenku;
+  margin-top: -0.5em;
+  margin-left: 0.5em;
+  color: #872d31;
+  font-size: 2.5em;
+}
+.art{
+  display: inline-block;
+  position: absolute;
+  right: 0.3em;
+  top: 0.3em;
+  border-radius: 20%;
+  z-index: 2;
+}
+
+#model{
+  background-color: aliceblue;
+  border-top: solid;
+  border-width: 5px;
+  border-color: #872d31;
+  height: 53.25em;
+  margin-top: 2.65em;
+}
+
+#jenker{
+  margin-top: 5vh;
+  height: 90vh;
+}
+
+.window{
+  position: sticky;
+  margin-top: -25em;
+  float: right;
+  width: 40%;
+  height: 56.25em;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #872d31;
+  background-color: #bb686b;
+  .Horror{
+    position: absolute;
+    top: 1.5vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .IntroContainer {
+    width: 100%;
+  }
+
+  .introWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .status {
+    margin-left: 0;
+  }
+
+  .left, .dsGame {
+    display: block;
+  }
+
+  .extraInfo {
+    padding-top: 1em;
+  }
+
+  .iamabusingdiv {
+    margin-top: 1em;
+  }
+
+  .PLeaseDONTREAD{
+    display: none;
+  }
+
+  .iamabusingdiv{
+    display: none;
+  }
+
+  .window {
+    width: 100%;
+    margin-top: 1em;
+  }
+
+  .status{
+    display: none;
+  }
+}
