@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: 'jenku';
-  src: url("/Jenku-Regular.otf");
+  src: url("/JenkerFont-Regular.otf");
 }
 
 #names {
@@ -21,7 +21,7 @@
 
 .Hi{
   position: relative;
-  font-size: 6em;
+  font-size: 7em;
   display: inline-block;
   line-height: 0.8;
   grid-column: 1;
@@ -38,14 +38,16 @@
   display: inline-block;
   font-size: 3em;
   align-content: flex-end;
-
   .left{
     display: inline-block;
+    width: 25vw;
+    word-wrap: break-word;
   }
   .dsGame{
     display: inline-block;
   }
 }
+
 
 .extraInfo{
   padding-top: 2em;
@@ -60,7 +62,7 @@
   font-size: 1.5em;
   background-color: aliceblue;
   width: 25em;
-  height: 14em;
+  height: 14.5em;
   border-top: solid;
   border-width: 5px;
   border-color: #872d31;
@@ -84,11 +86,18 @@
   color: #872d31;
   font-size: 2.5em;
 }
+
+.overlayworkaround{
+  display: flex;
+  margin-left: -3vw;
+  align-content: center;
+  position: relative;
+}
+
 .art{
-  display: inline-block;
   position: absolute;
-  right: 0.3em;
-  top: 0.3em;
+  left: 0.8vw;
+  top: 1.5vh;
   border-radius: 20%;
   z-index: 2;
 }
@@ -167,4 +176,17 @@
   .status{
     display: none;
   }
+}
+
+a{
+  color: #872d31;
+}
+
+a:hover{
+  color: #bb686b;
+}
+
+.socials{
+  display: grid;
+  grid-template-columns: auto auto;
 }

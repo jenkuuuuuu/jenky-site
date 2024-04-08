@@ -96,8 +96,10 @@ function App() {
               <MyComponent className="a" />
             </div>
             <div className="dsGame">
+              <div className="overlayworkaround">
               <img draggable="false" onDragStart={() => false} src="/emptyDS.svg" width="120em" height="auto"></img>
               <AlbumArt />
+              </div>
             </div>
           </div>
         </div>
@@ -130,6 +132,20 @@ function App() {
                 <li>2DS</li>
                 <li>3DS</li>
               </ul>
+            <div className="socials">
+              <img src="jenkShowOff.png" width={"180"}></img>
+              <ul>
+                <li>
+                  <a>github</a>
+                </li>
+                <li>
+                  <a>twitter</a>
+                </li>
+                <li>
+                  <a>discord</a>
+                </li>
+              </ul>
+            </div>
             </div>
           </div>
         </div>
