@@ -87,13 +87,6 @@ function App() {
 
   return (
     <>
-    
-    <meta property="og:site_name" content="jenky site"/>
-    <meta property="og:url" content="https://jenku.xyz/"/>
-    <meta property="og:title" content="the jenker site"/>
-    <meta property="og:description" content="jenku is real"/>
-    <meta property="og:type" content="website"/>
-    <meta name="og:image" itemprop="image" content="/jenkshot.png"/>
     <div className='halftone'></div>
       <div className="IntroContainer">
         <div className="introWrapper">
